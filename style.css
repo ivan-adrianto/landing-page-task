@@ -1,0 +1,200 @@
+ html {
+  scroll-behavior: smooth;
+ }
+:root {
+    --lightblue: #F6F9FC;
+    --red: #d64041;
+    background-color: #F6F9FC;
+  }
+
+  a,
+  a:hover {
+    color: inherit;
+  }
+   
+  a:hover {
+    text-decoration: none;
+  }
+   
+  .bg-lightblue {
+    background: var(--lightblue);
+  }
+   
+  .bg-red {
+    background: #45B3E7;
+  }
+   
+  .text-red {
+    color: #45B3E7;
+  }
+   
+  .container-fluid-max {
+    max-width: 1440px;
+  }
+   
+  .cover {
+    background: no-repeat center/cover;
+  }
+   
+  .p-15 {
+    padding: 15px;
+  }
+
+  p{
+    font-family: 'Montserrat';
+  }
+
+  h1 {
+    font-family: 'Playfair Display';
+    font-size: 70px;
+    font-weight: 400;
+  }
+
+  h2 {
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  /* Navbar */
+.navbar {
+    background-color: rgb(69,179,231) !important;
+    height: 60px;
+}
+
+.navbar-brand p {
+    color: white !important;
+}
+
+.nav-link {
+    color:white !important;
+    margin-right: 15px;
+}
+
+.navbar p {
+  font-family: 'Playfair Display';
+  font-weight: 800;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+/* jumbotron */
+.scroll .hero {
+    transform: scale(0.98);
+  }
+   
+  .hero {
+    background-attachment: fixed;
+    transition: transform 0.5s ease-in-out;
+  }
+   
+  .hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5) 0,
+      rgba(0, 0, 0, 0.3) 50%,
+      rgba(0, 0, 0, 0.1) 100%
+    );
+  }
+   
+  .hero .container-fluid {
+    z-index: 10;
+  }
+
+ 
+
+/* Programs */
+
+#programs img {
+    margin-top: 35px;
+    width: 75px;
+}
+
+#programs h2 {
+    margin-top: 18px;
+}
+
+#programs h3 {
+  margin: 10px;
+}
+#programs p {
+    font-size: 15px;
+}
+
+
+/* About */
+
+#tentang-kami h2 {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    color: rgb(69,179,231);
+}
+
+#tentang-kami p {
+    padding-right: 53px;
+}
+
+#tentang-kami img {
+  margin-top: 1000px;
+}
+
+/* News */
+
+#updates {
+  margin-top: 40px;
+}
+.updates figure {
+  margin-bottom: 30px;
+}
+ 
+.updates figcaption {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+ 
+.updates img {
+  filter: grayscale(100%) blur(3px);
+  transition: transform 0.5s, filter 0.75s;
+}
+ 
+.updates a:hover img {
+  transform: scale(1.25);
+  filter: none;
+}
+
+.pb-3 {
+  margin-top: 20px;
+}
+
+
+/* CTA */
+
+#donasi h2 {
+  font-size: 35px;
+
+}
+/* Footer */
+.page-footer .footer-links {
+  text-align: center;
+}
+ 
+@media screen and (max-width: 767px) {
+  .page-footer .footer-child {
+    text-align: center;
+  }
+}
